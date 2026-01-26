@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitro Rush - Ultimate Racing Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">NITRO</span>
+                <span class="logo-accent">RUSH</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#cars">Cars</a></li>
+                <li><a href="#tracks">Tracks</a></li>
+                <li><a href="#download">Download</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="speed-lines"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">EXTREME</span>
+                <span class="title-line">RACING</span>
+                <span class="title-accent">EXPERIENCE</span>
+            </h1>
+            <p class="hero-subtitle">Push the limits. Break the rules. Dominate the streets.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="alert('Game launching soon! Stay tuned for updates.')">Play Now</button>
+                <button class="btn btn-secondary" onclick="alert('Trailer coming soon! Subscribe for updates.')">Watch Trailer</button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">200+</span>
+                    <span class="stat-label">Cars</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Tracks</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">10M+</span>
+                    <span class="stat-label">Players</span>
+                </div>
+            </div>
+        </div>
+        <div class="speedometer">
+            <div class="speed-needle"></div>
+            <span class="speed-value">0</span>
+            <span class="speed-unit">MPH</span>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Game Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🏎️</div>
+                    <h3>Customization</h3>
+                    <p>Fully customize your ride with thousands of parts, paints, and decals. Make it uniquely yours.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌃</div>
+                    <h3>Open World</h3>
+                    <p>Explore massive open-world cities with dynamic weather and day-night cycles.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Nitro Boost</h3>
+                    <p>Experience the adrenaline rush with advanced nitro boost mechanics and drift systems.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎮</div>
+                    <h3>Multiplayer</h3>
+                    <p>Race against players worldwide in intense multiplayer competitions and tournaments.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎵</div>
+                    <h3>Soundtrack</h3>
+                    <p>Immerse yourself with a curated soundtrack featuring the hottest tracks in racing culture.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Championships</h3>
+                    <p>Compete in global championships and climb the leaderboards to become a legend.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cars Section -->
+    <section id="cars" class="cars">
+        <div class="container">
+            <h2 class="section-title">Premium Car Collection</h2>
+            <div class="cars-showcase">
+                <div class="car-card">
+                    <div class="car-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <div class="car-glow"></div>
+                    </div>
+                    <h3>Super Sport</h3>
+                    <p>Top Speed: 250 MPH</p>
+                    <div class="car-stats">
+                        <span>⚡ Power: 1200 HP</span>
+                        <span>🏎️ Class: S+</span>
+                    </div>
+                </div>
+                <div class="car-card">
+                    <div class="car-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <div class="car-glow"></div>
+                    </div>
+                    <h3>Street Racer</h3>
+                    <p>Top Speed: 220 MPH</p>
+                    <div class="car-stats">
+                        <span>⚡ Power: 950 HP</span>
+                        <span>🏎️ Class: S</span>
+                    </div>
+                </div>
+                <div class="car-card">
+                    <div class="car-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <div class="car-glow"></div>
+                    </div>
+                    <h3>Drift King</h3>
+                    <p>Top Speed: 200 MPH</p>
+                    <div class="car-stats">
+                        <span>⚡ Power: 850 HP</span>
+                        <span>🏎️ Class: A+</span>
+                    </div>
+                </div>
+                <div class="car-card">
+                    <div class="car-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <div class="car-glow"></div>
+                    </div>
+                    <h3>Hyper Beast</h3>
+                    <p>Top Speed: 280 MPH</p>
+                    <div class="car-stats">
+                        <span>⚡ Power: 1500 HP</span>
+                        <span>🏎️ Class: X</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tracks Section -->
+    <section id="tracks" class="tracks">
+        <div class="container">
+            <h2 class="section-title">Legendary Tracks</h2>
+            <div class="tracks-grid">
+                <div class="track-card">
+                    <div class="track-preview"></div>
+                    <h3>Neon City</h3>
+                    <p>Urban night racing through illuminated streets</p>
+                    <span class="track-difficulty">Difficulty: Hard</span>
+                </div>
+                <div class="track-card">
+                    <div class="track-preview"></div>
+                    <h3>Mountain Pass</h3>
+                    <p>Thrilling mountain roads with sharp turns</p>
+                    <span class="track-difficulty">Difficulty: Extreme</span>
+                </div>
+                <div class="track-card">
+                    <div class="track-preview"></div>
+                    <h3>Coastal Highway</h3>
+                    <p>High-speed coastal route with ocean views</p>
+                    <span class="track-difficulty">Difficulty: Medium</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <h2>Ready to Race?</h2>
+                <p>Join millions of players in the ultimate racing experience</p>
+                <div class="download-buttons">
+                    <button class="btn btn-download" onclick="alert('Download will be available soon! Join our community for updates.')">
+                        <span>Download for PC</span>
+                        <span class="btn-size">15.2 GB</span>
+                    </button>
+                    <button class="btn btn-download" onclick="alert('Console version coming soon! Stay tuned.')">
+                        <span>Download for Console</span>
+                        <span class="btn-size">18.5 GB</span>
+                    </button>
+                </div>
+                <div class="system-requirements">
+                    <h3>System Requirements</h3>
+                    <div class="requirements-grid">
+                        <div>
+                            <strong>Minimum:</strong>
+                            <ul>
+                                <li>OS: Windows 10 64-bit</li>
+                                <li>CPU: Intel i5-8400 / AMD Ryzen 5 2600</li>
+                                <li>RAM: 8 GB</li>
+                                <li>GPU: GTX 1060 / RX 580</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <strong>Recommended:</strong>
+                            <ul>
+                                <li>OS: Windows 11 64-bit</li>
+                                <li>CPU: Intel i7-10700K / AMD Ryzen 7 3700X</li>
+                                <li>RAM: 16 GB</li>
+                                <li>GPU: RTX 3070 / RX 6700 XT</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>NITRO RUSH</h4>
+                    <p>The ultimate racing experience</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#cars">Cars</a></li>
+                        <li><a href="#tracks">Tracks</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Community</h4>
+                    <ul>
+                        <li><a href="#">Discord</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">YouTube</a></li>
+                        <li><a href="#">Twitch</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Nitro Rush. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
