@@ -1,0 +1,30 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="track1Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="600" height="400" fill="#0a0a0f"/>
+  <!-- Road -->
+  <path d="M 50 200 Q 150 100, 250 150 T 450 200 T 550 250" stroke="#2a2a3e" stroke-width="80" fill="none" stroke-linecap="round"/>
+  <path d="M 50 200 Q 150 100, 250 150 T 450 200 T 550 250" stroke="#00f0ff" stroke-width="4" fill="none" stroke-dasharray="20,20" opacity="0.6"/>
+  <!-- Buildings -->
+  <rect x="50" y="50" width="40" height="120" fill="#1a1a2e" opacity="0.8"/>
+  <rect x="100" y="80" width="35" height="90" fill="#1a1a2e" opacity="0.8"/>
+  <rect x="450" y="100" width="45" height="100" fill="#1a1a2e" opacity="0.8"/>
+  <rect x="510" y="70" width="40" height="130" fill="#1a1a2e" opacity="0.8"/>
+  <!-- Windows -->
+  <rect x="55" y="60" width="8" height="8" fill="#00f0ff" opacity="0.6"/>
+  <rect x="68" y="60" width="8" height="8" fill="#00f0ff" opacity="0.6"/>
+  <rect x="55" y="75" width="8" height="8" fill="#ff006e" opacity="0.6"/>
+  <rect x="68" y="75" width="8" height="8" fill="#00f0ff" opacity="0.6"/>
+  <rect x="455" y="110" width="8" height="8" fill="#00f0ff" opacity="0.6"/>
+  <rect x="468" y="110" width="8" height="8" fill="#ff006e" opacity="0.6"/>
+  <rect x="515" y="80" width="8" height="8" fill="#00f0ff" opacity="0.6"/>
+  <rect x="528" y="80" width="8" height="8" fill="#00f0ff" opacity="0.6"/>
+  <!-- Neon Signs -->
+  <text x="150" y="90" font-family="Arial" font-size="12" fill="#00f0ff" opacity="0.8">NEON</text>
+  <text x="480" y="120" font-family="Arial" font-size="12" fill="#ff006e" opacity="0.8">RUSH</text>
+</svg>

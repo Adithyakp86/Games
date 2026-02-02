@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitro Rush - Play Game</title>
+    <link rel="stylesheet" href="game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <div class="game-stats">
+                <div class="stat">
+                    <span class="stat-label">SPEED</span>
+                    <span class="stat-value" id="speed">0</span>
+                    <span class="stat-unit">MPH</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">SCORE</span>
+                    <span class="stat-value" id="score">0</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">DISTANCE</span>
+                    <span class="stat-value" id="distance">0</span>
+                    <span class="stat-unit">M</span>
+                </div>
+            </div>
+            <button class="btn-exit" onclick="exitGame()">EXIT</button>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+        <div class="game-controls">
+            <div class="controls-info">
+                <p>Use <strong>Arrow Keys</strong> or <strong>WASD</strong> to drive</p>
+                <p>Press <strong>SPACE</strong> for Nitro Boost</p>
+            </div>
+        </div>
+        <div id="gameOver" class="game-over hidden">
+            <h2>GAME OVER</h2>
+            <p class="final-score">Final Score: <span id="finalScore">0</span></p>
+            <p class="final-distance">Distance: <span id="finalDistance">0</span> M</p>
+            <div class="game-over-buttons">
+                <button class="btn-restart" onclick="restartGame()">RESTART</button>
+                <button class="btn-exit" onclick="exitGame()">EXIT</button>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

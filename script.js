@@ -54,9 +54,10 @@ document.addEventListener('DOMContentLoaded', function() {
             if (targetId && targetId !== '#') {
                 const target = document.querySelector(targetId);
                 if (target) {
-                    const offsetTop = target.offsetTop - 80; // Account for fixed navbar
+                    const navbarHeight = document.querySelector('.navbar').offsetHeight;
+                    const offsetTop = target.offsetTop - navbarHeight - 20; // Account for fixed navbar + extra spacing
                     window.scrollTo({
-                        top: offsetTop,
+                        top: Math.max(0, offsetTop),
                         behavior: 'smooth'
                     });
                 }

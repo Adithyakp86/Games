@@ -1,0 +1,24 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="track2Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="600" height="400" fill="#0a0a0f"/>
+  <!-- Mountain Background -->
+  <polygon points="0,200 100,100 200,150 300,80 400,120 500,90 600,130 600,400 0,400" fill="#1a1a2e" opacity="0.6"/>
+  <!-- Road -->
+  <path d="M 100 350 Q 200 300, 300 320 Q 400 340, 500 300 L 550 280" stroke="#2a2a3e" stroke-width="60" fill="none" stroke-linecap="round"/>
+  <path d="M 100 350 Q 200 300, 300 320 Q 400 340, 500 300 L 550 280" stroke="#ff006e" stroke-width="3" fill="none" stroke-dasharray="15,15" opacity="0.7"/>
+  <!-- Road Edges -->
+  <path d="M 100 350 Q 200 300, 300 320 Q 400 340, 500 300 L 550 280" stroke="#ffffff" stroke-width="2" fill="none"/>
+  <!-- Trees -->
+  <polygon points="150,250 160,200 170,250" fill="#0f4f0f" opacity="0.7"/>
+  <polygon points="250,240 260,190 270,240" fill="#0f4f0f" opacity="0.7"/>
+  <polygon points="380,260 390,210 400,260" fill="#0f4f0f" opacity="0.7"/>
+  <!-- Guardrails -->
+  <line x1="120" y1="330" x2="520" y2="290" stroke="#00f0ff" stroke-width="2" opacity="0.5"/>
+  <line x1="120" y1="340" x2="520" y2="300" stroke="#00f0ff" stroke-width="2" opacity="0.5"/>
+</svg>

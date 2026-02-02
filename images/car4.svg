@@ -1,0 +1,36 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="car4Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fa709a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fee140;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow4">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Car Body -->
+  <rect x="65" y="115" width="270" height="110" rx="18" fill="url(#car4Gradient)" filter="url(#glow4)"/>
+  <rect x="85" y="95" width="230" height="42" rx="21" fill="url(#car4Gradient)" opacity="0.9"/>
+  <!-- Windows -->
+  <rect x="100" y="105" width="95" height="26" rx="5" fill="#1a1a2e" opacity="0.8"/>
+  <rect x="205" y="105" width="95" height="26" rx="5" fill="#1a1a2e" opacity="0.8"/>
+  <!-- Wheels -->
+  <circle cx="115" cy="235" r="30" fill="#0a0a0f" stroke="#fee140" stroke-width="3"/>
+  <circle cx="115" cy="235" r="20" fill="#2a2a3e"/>
+  <circle cx="285" cy="235" r="30" fill="#0a0a0f" stroke="#fee140" stroke-width="3"/>
+  <circle cx="285" cy="235" r="20" fill="#2a2a3e"/>
+  <!-- Headlights -->
+  <ellipse cx="335" cy="150" rx="20" ry="24" fill="#ffff00" opacity="0.9"/>
+  <ellipse cx="335" cy="180" rx="20" ry="24" fill="#ffff00" opacity="0.9"/>
+  <!-- Spoiler -->
+  <rect x="65" y="95" width="35" height="18" rx="5" fill="url(#car4Gradient)"/>
+  <!-- Neon Accents -->
+  <line x1="75" y1="140" x2="325" y2="140" stroke="#fee140" stroke-width="2" opacity="0.7"/>
+  <line x1="75" y1="200" x2="325" y2="200" stroke="#fee140" stroke-width="2" opacity="0.7"/>
+  <!-- Side Vents -->
+  <rect x="150" y="145" width="100" height="18" rx="4" fill="#fee140" opacity="0.4"/>
+</svg>
